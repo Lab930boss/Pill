@@ -12,4 +12,6 @@ https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
 
 Weight: darknet19_448.conv.23
 
-Command: PATH/darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23 
+Command for training: PATH/darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23 
+
+Command for testing: PATH/darknet detector test cfg/obj.data cfg/yolo-obj.cfg yolo-obj1000.weights data/testimage.jpg
