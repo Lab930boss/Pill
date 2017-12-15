@@ -16,11 +16,14 @@ This project is not intented for public use so all the environemnt setting and i
     ~/Github/darknet/data/img   br />
     
     
+![Alt text](https://github.com/Lab930boss/DnnSetup/blob/master/nvidia%20driver%20info.png?raw=true "GPU info") <br />
   
   
   - Set up the configuration file
-    In this file, training and validation file path is defined
+    In this file, training and validation file path is defined. 
     ~/Github/darknet/data/obj.data 
+    
+    
     
     Contents
       - classes =1
