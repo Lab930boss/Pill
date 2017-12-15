@@ -8,3 +8,7 @@ This project is not intented for public use so all the environemnt setting and i
 - OpenCV for Linux (Optional)
 
 ## How to train
+- Training image file path
+  ~/Github/darknet/data/img   br />
+  
+- Training image file path
