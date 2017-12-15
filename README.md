@@ -8,7 +8,23 @@ This project is not intented for public use so all the environemnt setting and i
 - OpenCV for Linux (Optional)
 
 ## How to train
-- Training image file path
-  ~/Github/darknet/data/img   br />
+  In order to train darkent for this application, you need to following the steps below.
+  * Prepare for the training and testing data
   
-- Training image file path
+  - Training image file path  
+    Place all the images and annotation file in this folder
+    ~/Github/darknet/data/img   br />
+    
+    
+  
+  
+  - Set up the configuration file
+    In this file, training and validation file path is defined
+    ~/Github/darknet/data/obj.data 
+    
+    Contents
+      - classes =1
+      - train = data/train.txt   
+      - valid = data/train.txt   --> In this case train data is used for validation
+      - names = data/obj.names
+      - backup backup
