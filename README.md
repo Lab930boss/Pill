@@ -15,13 +15,13 @@ This project is not intented for public use so all the environemnt setting and i
   - Training image file path  
     Place all the images and annotation file in this folde. Each image file is paried with annotation file.
     Please check the image below 
-    ~/Github/darknet/data/img   br />
+    ~/Github/darknet/data/img   <br />
     
     The annotation field structure is as follows
-    - [category number] [object center in X] [object center in Y] [object width in X] [object width in Y]
-    In our case, we only detect pill so there is only one category. The category will be alwyas 0/
-    For easier annotation, you need to use the folliwing tool
-    https://github.com/Lab930boss/Yolo_mark
+    - [category number] [object center in X] [object center in Y] [object width in X] [object width in Y] <br />
+    In our case, we only detect pill so there is only one category. The category will be alwyas 0/ <br />
+    For easier annotation, you need to use the folliwing tool <br />
+    https://github.com/Lab930boss/Yolo_mark <br />
     
 ![Alt text](https://github.com/Lab930boss/Pill/blob/master/IMG_0004.JPG?raw=true "training image and annotation") <br />
   
