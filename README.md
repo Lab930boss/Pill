@@ -16,7 +16,7 @@ This project is not intented for public use so all the environemnt setting and i
     ~/Github/darknet/data/img   br />
     
     
-![Alt text](https://github.com/Lab930boss/DnnSetup/blob/master/nvidia%20driver%20info.png?raw=true "GPU info") <br />
+![Alt text](https://github.com/Lab930boss/Pill/blob/master/IMG_0004.JPG?raw=true "training image and annotation") <br />
   
   
   - Set up the configuration file
