@@ -8,8 +8,8 @@ This project is not intented for public use so all the environemnt setting and i
 - OpenCV for Linux (Optional)
 
 ## How to train
-  In order to train darkent for this application, you need to following the steps below.
-  Reference site:  https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
+  In order to train darkent for this application, you need to following the steps below. <br />
+  ( Reference site:  https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/ ) <br />
   * Prepare for the training and testing data
   
   - Training image file path  
@@ -21,15 +21,14 @@ This project is not intented for public use so all the environemnt setting and i
     - [category number] [object center in X] [object center in Y] [object width in X] [object width in Y] <br />
     In our case, we only detect pill so there is only one category. The category will be alwyas 0 <br />
     
-     - For easier annotation, you need to use the folliwing tool <br />
+    - For easier annotation, you need to use the folliwing tool <br />
       https://github.com/Lab930boss/Yolo_mark <br />
       
 ![Alt text](https://github.com/Lab930boss/Pill/blob/master/IMG_0004.JPG?raw=true "training image and annotation") <br />
   
-   
+  
 
-
-  * Set up the configuration file
+  * Set up obj.data file
     In this file, training and validation file path is defined. 
     ~/Github/darknet/data/obj.data 
     
@@ -40,4 +39,23 @@ This project is not intented for public use so all the environemnt setting and i
       - names = data/obj.names
       - backup backup
 
-  * 
+  * Set up cfg/yolo-obj.cfg that defines DNN structure
+
+  * Training command 
+    ~/Github/darknet/darknet detector train data/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
+    - If darknet doesn't work, use darknet_train instead
+    - The darknet19_448.conv.23 is the pretrained network
+    
+    Note: When u edit cfg file please be careful about the folliwing rule
+    set classes=1, the number of categories we want to detect
+    set filters=(classes + 5)*5 in our case filters=30
+    
+  * Test command 
+        ~/Github/darknet/darknet detector test cfg/obj.data cfg/yolo-obj.cfg yolo-obj1000.weights data/testimage.jpg
+        - If darknet doesn't work, use darknet_train        
+
+        
+        
+    
+    
+    
