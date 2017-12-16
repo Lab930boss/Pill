@@ -28,8 +28,8 @@ This project is not intented for public use so all the environemnt setting and i
   
   
 
-  * Set up obj.data file
-    In this file, training and validation file path is defined. 
+  * Set up obj.data file <br />
+    In this file, training and validation file path is defined.  <br />
     ~/Github/darknet/data/obj.data 
     
     Contents
