@@ -47,7 +47,7 @@ This project is not intented for public use so all the environemnt setting and i
     - If darknet doesn't work, use darknet_train instead
     - The darknet19_448.conv.23 is the pretrained network
     
-    Note: When u edit cfg file please be careful about the folliwing rule
+    Note: When you edit cfg file please be careful about the folliwing rule
     set classes=1, the number of categories we want to detect
     set filters=(classes + 5)*5 in our case filters=30
     
