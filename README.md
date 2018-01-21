@@ -21,7 +21,7 @@ This project is not intented for public use so all the environemnt setting and i
     - [category number] [object center in X] [object center in Y] [object width in X] [object width in Y] <br />
     In our case, we only detect pill so there is only one category. The category will be alwyas 0 <br />
     
-    - For easier annotation, you need to use the folliwing tool <br />
+    - For easier annotation, you need to use the following tool <br />
       https://github.com/Lab930boss/Yolo_mark <br />
       
 ![Alt text](https://github.com/Lab930boss/Pill/blob/master/IMG_0004.JPG?raw=true "training image and annotation") <br />
