@@ -9,6 +9,7 @@ This project is not intented for public use so all the environemnt setting and i
 
 ## How to train
   In order to train darkent for this application, you need to follow the steps below. <br />
+  Please go to the reference site and read it through. This is very important <br />
   ( Reference site:  https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/ ) <br />
   * Prepare for the training and testing data
   
