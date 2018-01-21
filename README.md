@@ -8,7 +8,7 @@ This project is not intented for public use so all the environemnt setting and i
 - OpenCV for Linux (Optional)
 
 ## How to train
-  In order to train darkent for this application, you need to following the steps below. <br />
+  In order to train darkent for this application, you need to follow the steps below. <br />
   ( Reference site:  https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/ ) <br />
   * Prepare for the training and testing data
   
