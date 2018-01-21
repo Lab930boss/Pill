@@ -13,7 +13,7 @@ This project is not intented for public use so all the environemnt setting and i
   * Prepare for the training and testing data
   
   - Training image file path  
-    Place all the images and annotation file in this folde. Each image file is paried with annotation file.
+    Place all the images and annotation file in this folder. Each image file is paried with annotation file.
     Please check the image below 
     ~/Github/darknet/data/img   <br />
     
