@@ -55,7 +55,8 @@ This project is not intented for public use so all the environemnt setting and i
         ~/Github/darknet/darknet detector test data/obj.data cfg/yolo-obj.cfg yolo-obj1000.weights data/testimage.jpg  <br />
         - If darknet doesn't work, use darknet_train        
 
-        
+  ** Note
+   Due to compiing issue, please use ~/Github/darknet2018/darknet  instead of ~/Github/darknet
         
     
     
